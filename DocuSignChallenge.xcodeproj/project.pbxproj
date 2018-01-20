@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D248355F2013D4DA001AA1F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248355E2013D4DA001AA1F6 /* AppDelegate.swift */; };
+		D24835612013D4DA001AA1F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24835602013D4DA001AA1F6 /* ViewController.swift */; };
+		D24835642013D4DA001AA1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24835622013D4DA001AA1F6 /* Main.storyboard */; };
+		D24835672013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D24835652013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodeld */; };
+		D24835692013D4DA001AA1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24835682013D4DA001AA1F6 /* Assets.xcassets */; };
+		D248356C2013D4DA001AA1F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D248356A2013D4DA001AA1F6 /* LaunchScreen.storyboard */; };
+		D24835772013D4DA001AA1F6 /* DocuSignChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24835762013D4DA001AA1F6 /* DocuSignChallengeTests.swift */; };
+		D24835822013D4DA001AA1F6 /* DocuSignChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24835812013D4DA001AA1F6 /* DocuSignChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D24835732013D4DA001AA1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24835532013D4DA001AA1F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D248355A2013D4DA001AA1F6;
+			remoteInfo = DocuSignChallenge;
+		};
+		D248357E2013D4DA001AA1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24835532013D4DA001AA1F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D248355A2013D4DA001AA1F6;
+			remoteInfo = DocuSignChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D248355B2013D4DA001AA1F6 /* DocuSignChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocuSignChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D248355E2013D4DA001AA1F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D24835602013D4DA001AA1F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D24835632013D4DA001AA1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D24835662013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DocuSignChallenge.xcdatamodel; sourceTree = "<group>"; };
+		D24835682013D4DA001AA1F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D248356B2013D4DA001AA1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D248356D2013D4DA001AA1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24835722013D4DA001AA1F6 /* DocuSignChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocuSignChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24835762013D4DA001AA1F6 /* DocuSignChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocuSignChallengeTests.swift; sourceTree = "<group>"; };
+		D24835782013D4DA001AA1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D248357D2013D4DA001AA1F6 /* DocuSignChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocuSignChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24835812013D4DA001AA1F6 /* DocuSignChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocuSignChallengeUITests.swift; sourceTree = "<group>"; };
+		D24835832013D4DA001AA1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D24835582013D4DA001AA1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D248356F2013D4DA001AA1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D248357A2013D4DA001AA1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D24835522013D4DA001AA1F6 = {
+			isa = PBXGroup;
+			children = (
+				D248355D2013D4DA001AA1F6 /* DocuSignChallenge */,
+				D24835752013D4DA001AA1F6 /* DocuSignChallengeTests */,
+				D24835802013D4DA001AA1F6 /* DocuSignChallengeUITests */,
+				D248355C2013D4DA001AA1F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D248355C2013D4DA001AA1F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D248355B2013D4DA001AA1F6 /* DocuSignChallenge.app */,
+				D24835722013D4DA001AA1F6 /* DocuSignChallengeTests.xctest */,
+				D248357D2013D4DA001AA1F6 /* DocuSignChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D248355D2013D4DA001AA1F6 /* DocuSignChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				D248355E2013D4DA001AA1F6 /* AppDelegate.swift */,
+				D24835602013D4DA001AA1F6 /* ViewController.swift */,
+				D24835622013D4DA001AA1F6 /* Main.storyboard */,
+				D24835682013D4DA001AA1F6 /* Assets.xcassets */,
+				D248356A2013D4DA001AA1F6 /* LaunchScreen.storyboard */,
+				D248356D2013D4DA001AA1F6 /* Info.plist */,
+				D24835652013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodeld */,
+			);
+			path = DocuSignChallenge;
+			sourceTree = "<group>";
+		};
+		D24835752013D4DA001AA1F6 /* DocuSignChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D24835762013D4DA001AA1F6 /* DocuSignChallengeTests.swift */,
+				D24835782013D4DA001AA1F6 /* Info.plist */,
+			);
+			path = DocuSignChallengeTests;
+			sourceTree = "<group>";
+		};
+		D24835802013D4DA001AA1F6 /* DocuSignChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D24835812013D4DA001AA1F6 /* DocuSignChallengeUITests.swift */,
+				D24835832013D4DA001AA1F6 /* Info.plist */,
+			);
+			path = DocuSignChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D248355A2013D4DA001AA1F6 /* DocuSignChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24835862013D4DA001AA1F6 /* Build configuration list for PBXNativeTarget "DocuSignChallenge" */;
+			buildPhases = (
+				D24835572013D4DA001AA1F6 /* Sources */,
+				D24835582013D4DA001AA1F6 /* Frameworks */,
+				D24835592013D4DA001AA1F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocuSignChallenge;
+			productName = DocuSignChallenge;
+			productReference = D248355B2013D4DA001AA1F6 /* DocuSignChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D24835712013D4DA001AA1F6 /* DocuSignChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24835892013D4DA001AA1F6 /* Build configuration list for PBXNativeTarget "DocuSignChallengeTests" */;
+			buildPhases = (
+				D248356E2013D4DA001AA1F6 /* Sources */,
+				D248356F2013D4DA001AA1F6 /* Frameworks */,
+				D24835702013D4DA001AA1F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24835742013D4DA001AA1F6 /* PBXTargetDependency */,
+			);
+			name = DocuSignChallengeTests;
+			productName = DocuSignChallengeTests;
+			productReference = D24835722013D4DA001AA1F6 /* DocuSignChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D248357C2013D4DA001AA1F6 /* DocuSignChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D248358C2013D4DA001AA1F6 /* Build configuration list for PBXNativeTarget "DocuSignChallengeUITests" */;
+			buildPhases = (
+				D24835792013D4DA001AA1F6 /* Sources */,
+				D248357A2013D4DA001AA1F6 /* Frameworks */,
+				D248357B2013D4DA001AA1F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D248357F2013D4DA001AA1F6 /* PBXTargetDependency */,
+			);
+			name = DocuSignChallengeUITests;
+			productName = DocuSignChallengeUITests;
+			productReference = D248357D2013D4DA001AA1F6 /* DocuSignChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24835532013D4DA001AA1F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Joohan Oh";
+				TargetAttributes = {
+					D248355A2013D4DA001AA1F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P243KJ47L9;
+						ProvisioningStyle = Automatic;
+					};
+					D24835712013D4DA001AA1F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P243KJ47L9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D248355A2013D4DA001AA1F6;
+					};
+					D248357C2013D4DA001AA1F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P243KJ47L9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D248355A2013D4DA001AA1F6;
+					};
+				};
+			};
+			buildConfigurationList = D24835562013D4DA001AA1F6 /* Build configuration list for PBXProject "DocuSignChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D24835522013D4DA001AA1F6;
+			productRefGroup = D248355C2013D4DA001AA1F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D248355A2013D4DA001AA1F6 /* DocuSignChallenge */,
+				D24835712013D4DA001AA1F6 /* DocuSignChallengeTests */,
+				D248357C2013D4DA001AA1F6 /* DocuSignChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D24835592013D4DA001AA1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D248356C2013D4DA001AA1F6 /* LaunchScreen.storyboard in Resources */,
+				D24835692013D4DA001AA1F6 /* Assets.xcassets in Resources */,
+				D24835642013D4DA001AA1F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24835702013D4DA001AA1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D248357B2013D4DA001AA1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D24835572013D4DA001AA1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24835612013D4DA001AA1F6 /* ViewController.swift in Sources */,
+				D24835672013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodeld in Sources */,
+				D248355F2013D4DA001AA1F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D248356E2013D4DA001AA1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24835772013D4DA001AA1F6 /* DocuSignChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24835792013D4DA001AA1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24835822013D4DA001AA1F6 /* DocuSignChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D24835742013D4DA001AA1F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D248355A2013D4DA001AA1F6 /* DocuSignChallenge */;
+			targetProxy = D24835732013D4DA001AA1F6 /* PBXContainerItemProxy */;
+		};
+		D248357F2013D4DA001AA1F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D248355A2013D4DA001AA1F6 /* DocuSignChallenge */;
+			targetProxy = D248357E2013D4DA001AA1F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D24835622013D4DA001AA1F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24835632013D4DA001AA1F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D248356A2013D4DA001AA1F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D248356B2013D4DA001AA1F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D24835842013D4DA001AA1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D24835852013D4DA001AA1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D24835872013D4DA001AA1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P243KJ47L9;
+				INFOPLIST_FILE = DocuSignChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.DocuSignChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D24835882013D4DA001AA1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P243KJ47L9;
+				INFOPLIST_FILE = DocuSignChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.DocuSignChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D248358A2013D4DA001AA1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P243KJ47L9;
+				INFOPLIST_FILE = DocuSignChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.DocuSignChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocuSignChallenge.app/DocuSignChallenge";
+			};
+			name = Debug;
+		};
+		D248358B2013D4DA001AA1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P243KJ47L9;
+				INFOPLIST_FILE = DocuSignChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.DocuSignChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocuSignChallenge.app/DocuSignChallenge";
+			};
+			name = Release;
+		};
+		D248358D2013D4DA001AA1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P243KJ47L9;
+				INFOPLIST_FILE = DocuSignChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.DocuSignChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DocuSignChallenge;
+			};
+			name = Debug;
+		};
+		D248358E2013D4DA001AA1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P243KJ47L9;
+				INFOPLIST_FILE = DocuSignChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ttt.DocuSignChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DocuSignChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D24835562013D4DA001AA1F6 /* Build configuration list for PBXProject "DocuSignChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24835842013D4DA001AA1F6 /* Debug */,
+				D24835852013D4DA001AA1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24835862013D4DA001AA1F6 /* Build configuration list for PBXNativeTarget "DocuSignChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24835872013D4DA001AA1F6 /* Debug */,
+				D24835882013D4DA001AA1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24835892013D4DA001AA1F6 /* Build configuration list for PBXNativeTarget "DocuSignChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D248358A2013D4DA001AA1F6 /* Debug */,
+				D248358B2013D4DA001AA1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D248358C2013D4DA001AA1F6 /* Build configuration list for PBXNativeTarget "DocuSignChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D248358D2013D4DA001AA1F6 /* Debug */,
+				D248358E2013D4DA001AA1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D24835652013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D24835662013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodel */,
+			);
+			currentVersion = D24835662013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodel */;
+			path = DocuSignChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D24835532013D4DA001AA1F6 /* Project object */;
+}
