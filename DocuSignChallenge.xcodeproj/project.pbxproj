@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FFB5BF02A18BC532538C94D /* Pods_DocuSignChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F2CEA324A74D8EE438EC48 /* Pods_DocuSignChallenge.framework */; };
+		258442F4C3B5E3186C2A74F7 /* Pods_DocuSignChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D688C0666EA2D2F85EBBF6 /* Pods_DocuSignChallengeTests.framework */; };
 		D248355F2013D4DA001AA1F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248355E2013D4DA001AA1F6 /* AppDelegate.swift */; };
-		D24835612013D4DA001AA1F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24835602013D4DA001AA1F6 /* ViewController.swift */; };
 		D24835642013D4DA001AA1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24835622013D4DA001AA1F6 /* Main.storyboard */; };
 		D24835672013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D24835652013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodeld */; };
 		D24835692013D4DA001AA1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24835682013D4DA001AA1F6 /* Assets.xcassets */; };
 		D248356C2013D4DA001AA1F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D248356A2013D4DA001AA1F6 /* LaunchScreen.storyboard */; };
 		D24835772013D4DA001AA1F6 /* DocuSignChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24835762013D4DA001AA1F6 /* DocuSignChallengeTests.swift */; };
 		D24835822013D4DA001AA1F6 /* DocuSignChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24835812013D4DA001AA1F6 /* DocuSignChallengeUITests.swift */; };
+		D24835902013D74F001AA1F6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248358F2013D74F001AA1F6 /* HomeViewController.swift */; };
+		D24835922013D75C001AA1F6 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24835912013D75C001AA1F6 /* HomeViewController.storyboard */; };
+		D24835972013DAA0001AA1F6 /* WeaterForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24835952013DAA0001AA1F6 /* WeaterForecastTableViewCell.swift */; };
+		D24835982013DAA0001AA1F6 /* WeaterForecastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D24835962013DAA0001AA1F6 /* WeaterForecastTableViewCell.xib */; };
+		D248359A2013DC45001AA1F6 /* WeatherForecastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24835992013DC45001AA1F6 /* WeatherForecastTableViewController.swift */; };
+		D248359C2013DD83001AA1F6 /* WeatherForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248359B2013DD83001AA1F6 /* WeatherForecastModel.swift */; };
+		D248359E20143E07001AA1F6 /* WeatherForecastTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D248359D20143E07001AA1F6 /* WeatherForecastTableViewController.storyboard */; };
+		F590E1E007CACE950B61335A /* Pods_DocuSignChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAE0D107DC492F3CD27DA79 /* Pods_DocuSignChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46D688C0666EA2D2F85EBBF6 /* Pods_DocuSignChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocuSignChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F2CEA324A74D8EE438EC48 /* Pods_DocuSignChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocuSignChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDFCF3A94C18D686C079DDB /* Pods-DocuSignChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocuSignChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DocuSignChallengeTests/Pods-DocuSignChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8AAF112466AC1CBDA9F8E362 /* Pods-DocuSignChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocuSignChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DocuSignChallengeTests/Pods-DocuSignChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9665A5C55D87F4410D89E299 /* Pods-DocuSignChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocuSignChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DocuSignChallenge/Pods-DocuSignChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		9BAE0D107DC492F3CD27DA79 /* Pods_DocuSignChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocuSignChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DB51AB3C6A1738DC35EE58 /* Pods-DocuSignChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocuSignChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DocuSignChallengeUITests/Pods-DocuSignChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C910EC1E309B2507608B9091 /* Pods-DocuSignChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocuSignChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DocuSignChallengeUITests/Pods-DocuSignChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF988E1127AD00D18E4B2B7C /* Pods-DocuSignChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocuSignChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-DocuSignChallenge/Pods-DocuSignChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		D248355B2013D4DA001AA1F6 /* DocuSignChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocuSignChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D248355E2013D4DA001AA1F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D24835602013D4DA001AA1F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D24835632013D4DA001AA1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D24835662013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DocuSignChallenge.xcdatamodel; sourceTree = "<group>"; };
 		D24835682013D4DA001AA1F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +66,13 @@
 		D248357D2013D4DA001AA1F6 /* DocuSignChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocuSignChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24835812013D4DA001AA1F6 /* DocuSignChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocuSignChallengeUITests.swift; sourceTree = "<group>"; };
 		D24835832013D4DA001AA1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D248358F2013D74F001AA1F6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D24835912013D75C001AA1F6 /* HomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		D24835952013DAA0001AA1F6 /* WeaterForecastTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaterForecastTableViewCell.swift; sourceTree = "<group>"; };
+		D24835962013DAA0001AA1F6 /* WeaterForecastTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeaterForecastTableViewCell.xib; sourceTree = "<group>"; };
+		D24835992013DC45001AA1F6 /* WeatherForecastTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecastTableViewController.swift; sourceTree = "<group>"; };
+		D248359B2013DD83001AA1F6 /* WeatherForecastModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecastModel.swift; sourceTree = "<group>"; };
+		D248359D20143E07001AA1F6 /* WeatherForecastTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WeatherForecastTableViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFB5BF02A18BC532538C94D /* Pods_DocuSignChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258442F4C3B5E3186C2A74F7 /* Pods_DocuSignChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F590E1E007CACE950B61335A /* Pods_DocuSignChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		505D390A8DAB3DB67EC4F289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68F2CEA324A74D8EE438EC48 /* Pods_DocuSignChallenge.framework */,
+				46D688C0666EA2D2F85EBBF6 /* Pods_DocuSignChallengeTests.framework */,
+				9BAE0D107DC492F3CD27DA79 /* Pods_DocuSignChallengeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D24835522013D4DA001AA1F6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				D24835752013D4DA001AA1F6 /* DocuSignChallengeTests */,
 				D24835802013D4DA001AA1F6 /* DocuSignChallengeUITests */,
 				D248355C2013D4DA001AA1F6 /* Products */,
+				E1DBC3B4BAABDAD288861A44 /* Pods */,
+				505D390A8DAB3DB67EC4F289 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +139,18 @@
 			isa = PBXGroup;
 			children = (
 				D248355E2013D4DA001AA1F6 /* AppDelegate.swift */,
-				D24835602013D4DA001AA1F6 /* ViewController.swift */,
 				D24835622013D4DA001AA1F6 /* Main.storyboard */,
 				D24835682013D4DA001AA1F6 /* Assets.xcassets */,
 				D248356A2013D4DA001AA1F6 /* LaunchScreen.storyboard */,
 				D248356D2013D4DA001AA1F6 /* Info.plist */,
 				D24835652013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodeld */,
+				D248358F2013D74F001AA1F6 /* HomeViewController.swift */,
+				D24835912013D75C001AA1F6 /* HomeViewController.storyboard */,
+				D24835952013DAA0001AA1F6 /* WeaterForecastTableViewCell.swift */,
+				D24835962013DAA0001AA1F6 /* WeaterForecastTableViewCell.xib */,
+				D24835992013DC45001AA1F6 /* WeatherForecastTableViewController.swift */,
+				D248359B2013DD83001AA1F6 /* WeatherForecastModel.swift */,
+				D248359D20143E07001AA1F6 /* WeatherForecastTableViewController.storyboard */,
 			);
 			path = DocuSignChallenge;
 			sourceTree = "<group>";
@@ -128,6 +173,19 @@
 			path = DocuSignChallengeUITests;
 			sourceTree = "<group>";
 		};
+		E1DBC3B4BAABDAD288861A44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9665A5C55D87F4410D89E299 /* Pods-DocuSignChallenge.debug.xcconfig */,
+				CF988E1127AD00D18E4B2B7C /* Pods-DocuSignChallenge.release.xcconfig */,
+				8AAF112466AC1CBDA9F8E362 /* Pods-DocuSignChallengeTests.debug.xcconfig */,
+				7EDFCF3A94C18D686C079DDB /* Pods-DocuSignChallengeTests.release.xcconfig */,
+				B7DB51AB3C6A1738DC35EE58 /* Pods-DocuSignChallengeUITests.debug.xcconfig */,
+				C910EC1E309B2507608B9091 /* Pods-DocuSignChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D24835862013D4DA001AA1F6 /* Build configuration list for PBXNativeTarget "DocuSignChallenge" */;
 			buildPhases = (
+				6BA5E316B65888D2D4BAB034 /* [CP] Check Pods Manifest.lock */,
 				D24835572013D4DA001AA1F6 /* Sources */,
 				D24835582013D4DA001AA1F6 /* Frameworks */,
 				D24835592013D4DA001AA1F6 /* Resources */,
+				3A4F02A77F4D682AEB7C7AFF /* [CP] Embed Pods Frameworks */,
+				755A44F4E5DFA0DCB1276FB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D24835892013D4DA001AA1F6 /* Build configuration list for PBXNativeTarget "DocuSignChallengeTests" */;
 			buildPhases = (
+				CD8C0AA1DFB74D899047EBC9 /* [CP] Check Pods Manifest.lock */,
 				D248356E2013D4DA001AA1F6 /* Sources */,
 				D248356F2013D4DA001AA1F6 /* Frameworks */,
 				D24835702013D4DA001AA1F6 /* Resources */,
+				8E7D2450A1851C41ACA7402E /* [CP] Embed Pods Frameworks */,
+				14EF4091196B091662E90CED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D248358C2013D4DA001AA1F6 /* Build configuration list for PBXNativeTarget "DocuSignChallengeUITests" */;
 			buildPhases = (
+				20EB51347AB26D1DFA7515A1 /* [CP] Check Pods Manifest.lock */,
 				D24835792013D4DA001AA1F6 /* Sources */,
 				D248357A2013D4DA001AA1F6 /* Frameworks */,
 				D248357B2013D4DA001AA1F6 /* Resources */,
+				DBF3B8BDBF0F88FCE9B66AE5 /* [CP] Embed Pods Frameworks */,
+				CDAC5C691171F61A704CE51C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +305,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24835922013D75C001AA1F6 /* HomeViewController.storyboard in Resources */,
 				D248356C2013D4DA001AA1F6 /* LaunchScreen.storyboard in Resources */,
 				D24835692013D4DA001AA1F6 /* Assets.xcassets in Resources */,
 				D24835642013D4DA001AA1F6 /* Main.storyboard in Resources */,
+				D248359E20143E07001AA1F6 /* WeatherForecastTableViewController.storyboard in Resources */,
+				D24835982013DAA0001AA1F6 /* WeaterForecastTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +330,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14EF4091196B091662E90CED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DocuSignChallengeTests/Pods-DocuSignChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20EB51347AB26D1DFA7515A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4F02A77F4D682AEB7C7AFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DocuSignChallenge/Pods-DocuSignChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BA5E316B65888D2D4BAB034 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		755A44F4E5DFA0DCB1276FB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DocuSignChallenge/Pods-DocuSignChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E7D2450A1851C41ACA7402E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DocuSignChallengeTests/Pods-DocuSignChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8C0AA1DFB74D899047EBC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDAC5C691171F61A704CE51C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DocuSignChallengeUITests/Pods-DocuSignChallengeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF3B8BDBF0F88FCE9B66AE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DocuSignChallengeUITests/Pods-DocuSignChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D24835572013D4DA001AA1F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D24835612013D4DA001AA1F6 /* ViewController.swift in Sources */,
+				D24835972013DAA0001AA1F6 /* WeaterForecastTableViewCell.swift in Sources */,
+				D248359C2013DD83001AA1F6 /* WeatherForecastModel.swift in Sources */,
 				D24835672013D4DA001AA1F6 /* DocuSignChallenge.xcdatamodeld in Sources */,
 				D248355F2013D4DA001AA1F6 /* AppDelegate.swift in Sources */,
+				D24835902013D74F001AA1F6 /* HomeViewController.swift in Sources */,
+				D248359A2013DC45001AA1F6 /* WeatherForecastTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +628,7 @@
 		};
 		D24835872013D4DA001AA1F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9665A5C55D87F4410D89E299 /* Pods-DocuSignChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P243KJ47L9;
@@ -430,6 +642,7 @@
 		};
 		D24835882013D4DA001AA1F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF988E1127AD00D18E4B2B7C /* Pods-DocuSignChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P243KJ47L9;
@@ -443,6 +656,7 @@
 		};
 		D248358A2013D4DA001AA1F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AAF112466AC1CBDA9F8E362 /* Pods-DocuSignChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +672,7 @@
 		};
 		D248358B2013D4DA001AA1F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EDFCF3A94C18D686C079DDB /* Pods-DocuSignChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +688,7 @@
 		};
 		D248358D2013D4DA001AA1F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DB51AB3C6A1738DC35EE58 /* Pods-DocuSignChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P243KJ47L9;
@@ -487,6 +703,7 @@
 		};
 		D248358E2013D4DA001AA1F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C910EC1E309B2507608B9091 /* Pods-DocuSignChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P243KJ47L9;
@@ -518,6 +735,7 @@
 				D24835882013D4DA001AA1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D24835892013D4DA001AA1F6 /* Build configuration list for PBXNativeTarget "DocuSignChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +744,7 @@
 				D248358B2013D4DA001AA1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D248358C2013D4DA001AA1F6 /* Build configuration list for PBXNativeTarget "DocuSignChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +753,7 @@
 				D248358E2013D4DA001AA1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
