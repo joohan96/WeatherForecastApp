@@ -1,0 +1,6 @@
+framework module Pods_DocuSignChallengeTests {
+  umbrella header "Pods-DocuSignChallengeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
